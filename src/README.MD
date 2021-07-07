@@ -1,0 +1,1 @@
+In the process of executing the test task, a framework was created using the following tools: Java, Rest-Assured, Cucumber, Junit. All checks are carried out in one test script that runs directly from swapi.feature. 
