@@ -34,8 +34,8 @@ public class SwapiStepDefs {
         planets.getBody().as(PlanetExample.class);
     }
 
-    @Then("I chek at list one of them has diameter more than {int} kilometers")
-    public void iChekAtListOneOfThemHasDiameterMoreThanKilometers(long km) {
+    @Then("I check at list one of them has diameter more than {int} kilometers")
+    public void iCheckAtListOneOfThemHasDiameterMoreThanKilometers(long km) {
         Response planets = PlanetsEndpoints.getPlanets();
         PlanetExample planetsExample = planets.getBody().as(PlanetExample.class);
         planetsExample.getResults().stream()

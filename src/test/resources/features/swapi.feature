@@ -6,7 +6,7 @@ Feature: End to end tests
 
     Scenario: Checking planet diameter
       When I get planets information
-      Then I chek at list one of them has diameter more than 1000 kilometers
+      Then I check at list one of them has diameter more than 1000 kilometers
 
       Scenario: Checking people
         When I get people information
